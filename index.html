@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Yash Raj">
+        <meta name="description" content="A form to apply for Learner's Licence.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Permanant DL App_Form</title>
+    </head>
+    <body>
+        <h1>Application for Permanant Driver's Licence</h1>
+        <form action="./confirm.html">
+            <table>
+				<tbody>
+					<tr>
+						<th align="right">Date Of Birth :</th>
+						<td><input type="date" required></td>
+					</tr>
+					<tr>
+						<th align="right">Gender :</th>
+                        <td>
+                            Male<input type="radio" name="gender" required>
+                            Female<input type="radio"  name="gender" required>
+                            Other<input type="radio"  name="gender" required>
+                        </td>
+					</tr>
+					<tr>
+						<th align="right">PAN :</th>
+						<td><input type="text" required maxlength="30"></td>
+					</tr>
+					<tr>
+						<th align="right">LL No. :</th>
+						<td><input type="text" minlength="9" maxlength="9"></td>
+					</tr>
+					<tr>
+						<th align="right"></th>
+						<td><input type="submit"></td>
+					</tr>
+				</tbody>
+			</table>    
+        </form>
+    </body>
+</html>
