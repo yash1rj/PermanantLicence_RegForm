@@ -1,0 +1,24 @@
+body {
+	padding-top:100px;
+}
+
+h1 {
+	padding-bottom:20px;
+}
+
+body {
+	width: 100%;  
+	min-height: 96.5vh;
+	background: linear-gradient(45deg, #00dbde, #fc00ff) !important;
+}
+
+input[type="submit"] {
+	border:1px solid black;
+	background: linear-gradient(90deg, #fc00ff, #00dbde) !important;
+	transition: background 2s;
+	transition-timing-function: linear;
+}
+
+input[type="submit"]:hover {
+	background: linear-gradient(90deg, #00dbde, #fc00ff) !important;
+}
